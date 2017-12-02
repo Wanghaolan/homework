@@ -1,0 +1,90 @@
+.vernav { width: 230px; position: absolute; left: 0; top: 160px; }
+.vernav ul { list-style: none; margin: 10px; }
+.vernav ul li { display: block; margin-bottom: 1px; position: relative; }
+.vernav ul li a {
+  display: block; padding: 12px 10px; background: #f7f7f7; font-family: 'RobotoBoldCondensed', Arial, Helvetica, sans-serif; color: #32415a;
+  text-transform: uppercase; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px;
+}
+.vernav ul li a:hover { background-color: #32415A; color: #eee; }
+.vernav ul li.current a { background-color: #32415a; color: #fb9337; }
+.vernav ul ul { margin: 0; margin-left: 10px; display: none; }
+.vernav ul ul li a { color: #999; background: #fff url(line.dashed.png) no-repeat -25px center; border-left: 1px dashed #ccc; padding-left: 10px; }
+.vernav ul ul li a:hover { background-color: #fff; color: #666; }
+.vernav ul li.current ul { display: block; }
+.vernav ul li.current ul li a { background-color: #fff; color: #999; }
+.vernav ul li.current ul li a:hover { color: #666; }
+.vernav ul li.current ul li.current a { color: #fb9337; background-color: #fff; }
+
+.vernav2 { width: 230px; position: absolute; left: 0; top: 159px; }
+.vernav2 ul { list-style: none; margin: 0; }
+.vernav2 ul li { display: block; border-bottom: 1px solid #eee; position: relative; }
+.vernav2 ul li a {
+  display: block; padding: 9px 10px; background: #fff; font-family: 'RobotoBoldCondensed', Arial, Helvetica, sans-serif; color: #32415a;
+  text-transform: uppercase;
+}
+.vernav2 ul li a:hover { background-color: #fcfcfc; }
+.vernav2 ul li.current a { background-color: #f7f7f7; color: #fb9337; }
+.vernav2 ul ul { margin: 0; padding-left: 10px; border-top: 1px solid #eee; display: none; }
+.vernav2 ul ul li { border-bottom: 0; }
+.vernav2 ul ul li a {
+  color: #999; background: #fff url(line.dashed.png) no-repeat -25px center; border-left: 1px dashed #ccc; padding-left: 10px;
+}
+.vernav2 ul ul li a:hover { background-color: #fff; color: #666; }
+.vernav2 ul ul li:last-child { border-bottom: 0; }
+.vernav2 ul li.current ul { display: block; }
+.vernav2 ul li.current ul li a { background-color: #fff; color: #999; }
+.vernav2 ul li.current ul li a:hover { color: #666; }
+.vernav2 ul li.current ul li.current a { background-color: #fff; color: #fb9337; }
+
+.vernav ul li span.arrow, .vernav2 ul li span.arrow {
+  position: absolute; top: 17px; right: 10px; background: url(menuarrow.png) no-repeat 0 0;
+  width: 11px; height: 5px;
+}
+.vernav ul li.current span.arrow, .vernav2 ul li.current span.arrow { background-position: 0 -5px; }
+
+.iconmenu ul li a {
+  padding-left: 35px; background-image: url(icons_sprite.png); background-repeat: no-repeat; background-position: 10px 12px;
+}
+.iconmenu ul li a:hover { background-image: url(icons_sprite2.png); }
+.iconmenu ul li.current a:hover { background-image: url(icons_sprite.png); }
+.iconmenu ul ul { padding-left: 25px; }
+
+.iconmenu ul li a.editor { background-position: 8px 10px; }
+.iconmenu ul li a.gallery { background-position: 8px -61px; }
+.iconmenu ul li a.elements { background-position: 8px -133px; }
+.iconmenu ul li a.widgets { background-position: 8px -205px; }
+.iconmenu ul li a.calendar { background-position: 8px -278px; }
+.iconmenu ul li a.support { background-position: 8px -349px; }
+.iconmenu ul li a.typo { background-position: 8px -421px; }
+.iconmenu ul li a.tables { background-position: 8px -493px; }
+.iconmenu ul li a.error { background-position: 8px -565px; }
+.iconmenu ul li a.addons { background-position: 8px -638px; }
+.iconmenu ul li a.inbox { background-position: 8px -708px; }
+.iconmenu ul li a.drafts { background-position: 8px -780px; }
+.iconmenu ul li a.sent { background-position: 8px -853px; }
+.iconmenu ul li a.trash { background-position: 8px -923px; }
+
+.iconmenu ul li.current a.editor { background-position: 8px -24px; }
+.iconmenu ul li.current a.gallery { background-position: 8px -97px; }
+.iconmenu ul li.current a.elements { background-position: 8px -169px; }
+.iconmenu ul li.current a.widgets { background-position: 8px -240px; }
+.iconmenu ul li.current a.calendar { background-position: 8px -314px; }
+.iconmenu ul li.current a.support { background-position: 8px -385px; }
+.iconmenu ul li.current a.typo { background-position: 8px -457px; }
+.iconmenu ul li.current a.tables { background-position: 8px -530px; }
+.iconmenu ul li.current a.error { background-position: 8px -601px; }
+.iconmenu ul li.current a.addons { background-position: 8px -674px; }
+.iconmenu ul li.current a.inbox { background-position: 8px -744px; }
+.iconmenu ul li.current a.drafts { background-position: 8px -816px; }
+.iconmenu ul li.current a.sent { background-position: 8px -889px; }
+.iconmenu ul li.current a.trash { background-position: 8px -959px; }
+
+
+.centercontent { margin-left: 231px; position: relative; }
+.centercontent .pagetitle { margin: 0 20px 10px 20px; }
+.centercontent .pagedesc { margin: 0 20px; }
+.centercontent .hornav { padding: 0 20px; }
+
+.withmenucoll .centercontent { margin-left: 56px; }
+.withmenucoll2 .centercontent { margin-left: 36px; }
+

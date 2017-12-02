@@ -1,0 +1,7 @@
+.centercontent { margin-left: 231px; position: relative; }
+.centercontent .pagetitle { margin: 0 20px 10px 20px; }
+.centercontent .pagedesc { margin: 0 20px; }
+.centercontent .hornav { padding: 0 20px; }
+
+.withmenucoll .centercontent { margin-left: 56px; }
+.withmenucoll2 .centercontent { margin-left: 36px; }

@@ -1,14 +1,15 @@
-<div class="vernav2 iconmenu">
+<div class="vernav2">
   <ul>
     <!--陪在2下-->
-    <li><a href="#div1" class="elements">添加教师用户</a></li>
-    <li><a href="#" class="elements">删除教师用户</a></li>
-
+    <li><a [routerLink]="['./addteacher']" class="elements">添加教师用户</a></li>
+    <li><a [routerLink]="['./deleteacher']" class="elements">删除教师用户</a></li>
+    <router-outlet></router-outlet>
   </ul>
 
 
 </div>
-<app-center1></app-center1>
+
+<!--<app-center1></app-center1>-->
 <!--<app-deleteacher></app-deleteacher>-->
 
 

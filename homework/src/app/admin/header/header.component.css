@@ -1,5 +1,6 @@
 /***** 7. HEADER STYLES *****/
 /****************************/
+.headermenu li ul{display: none}
 
 
 .header {

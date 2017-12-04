@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/homework/src/app/admin/addteach/addteach.component.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/homework/src/app/admin/addteach/addteach.component.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/homework/src/app/admin/addteacher/addteacher.component.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/homework/src/app/admin/addteacher/addteacher.component.spec.ts" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/homework/src/app/admin/center1/center1.component.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/homework/src/app/admin/center1/center1.component.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/homework/src/app/admin/deleteach/deleteach.component.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/homework/src/app/admin/deleteach/deleteach.component.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/homework/src/app/admin/deleteacher/deleteacher.component.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/homework/src/app/admin/deleteacher/deleteacher.component.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/homework/src/app/admin/deleteacher/deleteacher.component.spec.ts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/homework/src/app/admin/header/header.component.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/homework/src/app/admin/left1/left1.component.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/homework/src/app/admin/left2/left2.component.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/homework/src/app/admin/left3/left3.component.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/homework/src/app/app-routing.module.ts" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/homework/src/app/app.module.ts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../newhome/src/app/addteacher/addteacher.component.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../newhome/src/app/app-routing.module.ts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../newhome/src/app/app.component.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../newhome/src/app/deleteacher/deleteacher.component.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../newhome/src/app/deleteacher/deleteacher.component.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../newhome/src/app/header/header.component.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../newhome/src/app/header/header.component.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../newhome/src/app/header/header.component.ts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../newhome/src/app/header/menu.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../newhome/src/styles.css" charset="UTF-8" />
   </component>
 </project>

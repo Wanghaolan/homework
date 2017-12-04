@@ -43,38 +43,16 @@
 .vernav ul li.current span.arrow, .vernav2 ul li.current span.arrow { background-position: 0 -5px; }
 
 .iconmenu ul li a {
+  margin-top: 8px;
   padding-left: 35px; background-image: url(icons_sprite.png); background-repeat: no-repeat; background-position: 10px 12px;
 }
 .iconmenu ul li a:hover { background-image: url(icons_sprite2.png); }
 .iconmenu ul li.current a:hover { background-image: url(icons_sprite.png); }
 .iconmenu ul ul { padding-left: 25px; }
 
-.iconmenu ul li a.editor { background-position: 8px 10px; }
-.iconmenu ul li a.gallery { background-position: 8px -61px; }
-.iconmenu ul li a.elements { background-position: 8px -133px; }
-.iconmenu ul li a.widgets { background-position: 8px -205px; }
-.iconmenu ul li a.calendar { background-position: 8px -278px; }
-.iconmenu ul li a.support { background-position: 8px -349px; }
-.iconmenu ul li a.typo { background-position: 8px -421px; }
-.iconmenu ul li a.tables { background-position: 8px -493px; }
-.iconmenu ul li a.error { background-position: 8px -565px; }
-.iconmenu ul li a.addons { background-position: 8px -638px; }
-.iconmenu ul li a.inbox { background-position: 8px -708px; }
-.iconmenu ul li a.drafts { background-position: 8px -780px; }
-.iconmenu ul li a.sent { background-position: 8px -853px; }
-.iconmenu ul li a.trash { background-position: 8px -923px; }
 
-.iconmenu ul li.current a.editor { background-position: 8px -24px; }
-.iconmenu ul li.current a.gallery { background-position: 8px -97px; }
+.iconmenu ul li a.elements { background-position: 8px -133px; }
+
 .iconmenu ul li.current a.elements { background-position: 8px -169px; }
-.iconmenu ul li.current a.widgets { background-position: 8px -240px; }
-.iconmenu ul li.current a.calendar { background-position: 8px -314px; }
-.iconmenu ul li.current a.support { background-position: 8px -385px; }
-.iconmenu ul li.current a.typo { background-position: 8px -457px; }
-.iconmenu ul li.current a.tables { background-position: 8px -530px; }
-.iconmenu ul li.current a.error { background-position: 8px -601px; }
-.iconmenu ul li.current a.addons { background-position: 8px -674px; }
-.iconmenu ul li.current a.inbox { background-position: 8px -744px; }
-.iconmenu ul li.current a.drafts { background-position: 8px -816px; }
-.iconmenu ul li.current a.sent { background-position: 8px -889px; }
-.iconmenu ul li.current a.trash { background-position: 8px -959px; }
+
+

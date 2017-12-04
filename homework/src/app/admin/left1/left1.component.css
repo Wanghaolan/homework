@@ -44,6 +44,7 @@
 
 .iconmenu ul li a {
   padding-left: 35px; background-image: url(icons_sprite.png); background-repeat: no-repeat; background-position: 10px 12px;
+  margin-top: 8px;
 }
 .iconmenu ul li a:hover { background-image: url(icons_sprite2.png); }
 .iconmenu ul li.current a:hover { background-image: url(icons_sprite.png); }
@@ -87,4 +88,5 @@
 
 .withmenucoll .centercontent { margin-left: 56px; }
 .withmenucoll2 .centercontent { margin-left: 36px; }
+
 

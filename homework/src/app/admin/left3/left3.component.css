@@ -43,6 +43,7 @@
 .vernav ul li.current span.arrow, .vernav2 ul li.current span.arrow { background-position: 0 -5px; }
 
 .iconmenu ul li a {
+  margin-top: 8px;
   padding-left: 35px; background-image: url(icons_sprite.png); background-repeat: no-repeat; background-position: 10px 12px;
 }
 .iconmenu ul li a:hover { background-image: url(icons_sprite2.png); }
